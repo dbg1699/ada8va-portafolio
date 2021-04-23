@@ -1,0 +1,210 @@
+.conocimientos{
+    background-color:#FFFFFF;
+}
+
+.tittle{
+    color: #222831;
+    text-align: center;
+    width:100%;
+    margin: 0 0 40px;
+    font-family: Montserrat;
+    font-weight: revert;
+    font-size: 45px;
+}
+.skills{
+    background-color:#bedbbb;
+}
+.container-skill{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    width: 60%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    padding:5px;
+}
+
+/*estilos de las redes sociales*/
+
+.contact-social-media{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.social-icons-form{
+    width: 40px;
+    height: 40px;
+    background-color: #387c6d;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 20px 0;
+    transition-duration: 0.5s;
+}
+.social-item{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+.escribime{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.form-line{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.div-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.get-button{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #387c6d;
+    border-radius: 40px;
+    border:transparent;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    background-color: #e8eae6;
+    border-radius: 6px;
+    border: transparent;
+    padding-left: 15px;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    background-color: #e8eae6;
+    border-radius: 6px;
+    border: transparent;
+    padding: 15px;
+    outline: none;    
+}
+
+.get-button:hover{
+    transform: scale(1.2);
+}
+.get-button:active{
+    color:black;
+}
+.social-item:hover .social-icons-form{
+    color: #00917c;
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+.social-item:active{
+    background-color: transparent;
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+.red-input:focus {
+    background-color: #d4e2d4;
+    color: white;
+    border: #d4e2d4;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 700px) {
+
+    form{
+        align-items: center;
+    }
+    
+    input{
+        padding-left: 10px;
+        align-self: center;
+    }
+
+    .container-contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .contact-me{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-social-media{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }    
+
+    .as{
+        text-align: center;
+    }
+
+    .form-line{
+        justify-content: center;
+    }
+
+    .social-item{
+        height: 50px;
+    }
+
+    .social-icons-form{
+        margin: 10px 10px 10px 0;
+}
+
+}
