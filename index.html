@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/cepillo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="">
+    <link rel="stylesheet" href="./css/about.css" type="">
+    <link rel="stylesheet" href="./css/skills.css" type="">
+    <link rel="stylesheet" href="./css/forms.css" type="">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/5b0f89b18e.js" crossorigin="anonymous"></script>
+    <title>Daniela Benítez González</title>
+    
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="header-container">
+            <nav class="header-navegador">
+                <ul class="menu-navegador">
+                    <li class="item-navegador">
+                        <a href="#hi" class="link-navegador">HOLA</a></li>
+                    <li class="item-navegador">
+                        <a href="#skills" class="link-navegador">CONOCIMIENTOS</a></li>
+                    <li class="item-navegador">
+                        <a href="#projects" class="link-navegador">PROYECTOS</a></li>
+                    <li class="item-navegador contact-item">
+                        <a href="#contact" class="link-navegador link-contact-nav">CONTACTAME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!--CONTENEDOR HOLA-->
+    <main>
+
+        <section class="first-section" id="hi">
+            <div class="about-me">
+            <p class="presentation">¡Hola! soy</p>
+            <h1><b>Daniela Benítez González</b></h1>
+            <p class="my-description"> Desarrolladora, bordadora y fan del arte en todas sus expresiones.</p>
+            <a href="#proyects" class="what-i-do">LO QUE HAGO</a>
+            </div>
+            <img src="./assets/images/undraw_online_art_bgb4.png" class="about-me-img"
+                 alt="Imagen online art">
+        </section>
+
+    <!--CONTENEDOR CONOCIMIENTOS-->
+    
+    <section class="skills" id="skills">
+        <div class="container-skill">
+            <h2 class="tittle">Mis conocimientos</h2>
+            <p class="description info">Mi formación es un poco autodidacta y mediante
+                curiosidad al observar detalles logro cositas con código.
+            </p>
+            <div class="container-grid">
+                <div class="box"><i class="fab fa-html5 icon-card"></i><h4>HTML5</h4></div>
+                <div class="box"><i class="fab fa-css3-alt icon-card"></i><h4>CSS3</h4></div>
+                <div class="box"><i class="fab fa-sass icon-card"></i><h4>Sass</h4></div>
+                <div class="box"><i class="fab fa-js-square icon-card"></i><h4>JavaScript</h4></div>
+                <div class="box"><i class="fab fa-react icon-card"></i><h4>React</h4></div>
+                <div class="box"><i class="fab fa-git-alt icon-card"></i><h4>GIT</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTENEDOR FRASE-->
+
+    <section class="quote">
+        <i class="fas fa-quote-right icon-card"></i>
+        <p class="description info">“Usted no puede esperar construir un mundo mejor sin 
+            mejorar a las personas. Cada uno de nosotros debe trabajar para su propia mejora”.
+        </p>
+        <h2>
+            <strong>Marie Curie</strong>
+        </h2>
+    </section>
+
+    <!--MIS PROYECTOS-->
+    
+    <section class="skills" id="projects">
+        <div class="container-skill">
+            <h2 class="tittle">Mis proyectos</h2>
+            <p class="description info">Todo esto lo desarrollé durante mi formación en ADA.</p>
+            <div class="container-grid">
+                <a href="#hi" class="box">
+                        <img src="./assets/images/undraw_online_art_bgb4.svg" class="thumb" alt="Mi portafolio- Daniela Benítez">
+                        <h5>Portfolio</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                        <img src="./assets/images/undraw_ideation_re_8i2h.svg" class="thumb" alt="Generador de memes">
+                        <h5>Generador de memes</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                    <img src="./assets/images/undraw_ideation_re_8i2h.svg" class="thumb" alt="Match 3">
+                    <h5>Match 3</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                        <img src="./assets/images/undraw_version_control_9bpv.svg" class="thumb" alt="Controlador de Gastos">
+                        <h5>Controlador de gastos</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                        <img src="./assets/images/undraw_schedule_pnbk.svg" class="thumb" alt="Administrador de reuniones">
+                        <h5>Administrador de reuniones</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                        <img src="./assets/images/undraw_Social_media_re_w12q.svg" class="thumb" alt="Todo App">
+                        <h5>Todo app</h5>
+                </a>
+                <a href="#" target="_blank" class="box">
+                    <img src="./assets/images/undraw_Social_media_re_w12q.svg" class="thumb" alt="Todo App">
+                    <h5>Todo app</h5>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!--FORMULARIO- CONTACTO-->
+    
+            <div class="escribime">
+                <h2 class="section-name as">Escribime</h2>
+                <br>
+                <p class="descripcion">Me gustaría saber tu feedback</p>
+                <form action="database.php" method="GET">
+                    <div class="form-line">
+                        <div class="div-input">
+                            <label for="IdNameForm">Nombre *</label>
+                            <input type="text" id="IdNameForm" class="red-input" placeholder="p. ej. Daniela" required="required"/>
+                        </div>
+                        <div class="div-input">
+                            <label for="IdApellidoForm">Apellido *</label>
+                            <input type="text" id="IdApellidoForm" class="red-input" placeholder="p. ej. Benítez" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-line">
+                        <div class="div-input">
+                            <label for="IdEmailForm">Email *</label>
+                            <input type="email" id="IdEmailForm" class="red-input" placeholder="p. ej. danielabgon5@gmail.com" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-line">
+                        <div class="div-input">
+                            <label for="IdMessageForm">Mensaje</label>
+                            <textarea id="idComentarios" cols="50" rows="5" maxlength="250" class="red-input" placeholder="Escriba su mensaje aquí" required="required"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-line">
+                        <button class="get-button" type="submit">
+                            ENVIAR
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <section class="conocimientos" id="contact">
+            <div class="container-contact">
+                <div class="contact-me">
+                    <h2 class="section-name as">Contactame</h2>
+                    <p class="descripcion">Estas son mis redes sociales.</p>
+                    <ul class="contact-social-media">
+                        <li>
+                            <a href="https://twitter.com" class="social-item">
+                            <div class="social-icons-form"><i class="fab fa-twitter "></i></div>
+                            <p>@daniela___bg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dbg1699" class="social-item">
+                                <div class="social-icons-form"><i class="fab fa-github-alt"></i></div>
+                                <p>dbg1699</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/danielabenitezgonzalez/" class="social-item">
+                                <div class="social-icons-form"><i class="fab fa-linkedin-in"></i></div>
+                                <p>DanielaBenitezGonzalez</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:danielabgon5@gmail.com" class="social-item">
+                                <div class="social-icons-form"><i class="fas fa-envelope"></i></div>
+                                <p>danielabgon5@gmail.com</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+    </section>
+
+    </main>
+
+    <footer>
+        <nav class="nav-footer">
+            <ul class="ul-footer">
+                <li><a href="#hi" class="a-footer">HOLA</a></li>
+                <li><a href="#skills" class="a-footer">CONOCIMIENTOS</a></li>
+                <li><a href="#projects" class="a-footer">PROYECTOS</a></li>
+                <li><a href="#contact" class="a-footer">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <ul class="social-media">
+            <li>
+                <a href="https://twitter.com" class="social-icons">
+                    <i class="fab fa-twitter "></i >
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/dbg1699" class="social-icons">
+                    <i class="fab fa-github-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/danielabenitezgonzalez/" class="social-icons">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:danielabgon5@gmail.com" class="social-icons">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="sign-footer"><p>Hecho con mucho ❤️ y con demasiado ☕ por Daniela.</p></div>
+    </footer>
+    
+    
+</body>
+</html>
